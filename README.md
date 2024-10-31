@@ -94,7 +94,8 @@ Descripción:
             e. (M ^ (¬A)) v (¬C)
 
                 SOLUCION:
-                    a. ![A ^ B](image.png)
+                    a. A ^ B
+                        image.png
 
                     b. (¬A ^ B) v C
 
