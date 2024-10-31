@@ -95,17 +95,16 @@ Descripción:
 
                 SOLUCION:
                     a. A ^ B
-                        ![Solucion a.](/screenshotsTablasDeVerdad/solucionA.png)
-                        <img src="/screenshotsTablasDeVerdad/solucionA.png">
+                       VER CARPETA DE "IMAGENES" EN EL REPOSITORIO POR LA IMAGEN "solucionA.png"
 
                     b. (¬A ^ B) v C
-
+                        VER CARPETA DE "IMAGENES" EN EL REPOSITORIO POR LA IMAGEN "solucionB.png"
 
                     c. ¬(A v C) ^B
-
+                        VER CARPETA DE "IMAGENES" EN EL REPOSITORIO POR LA IMAGEN "solucionC.png"
 
                     d. (B ^ C)^(¬A)
-
+                        VER CARPETA DE "IMAGENES" EN EL REPOSITORIO POR LA IMAGEN "solucionD.png"
 
                     e. (M ^ (¬A)) v (¬C)
-
+                        VER CARPETA DE "IMAGENES" EN EL REPOSITORIO POR LA IMAGEN "solucionE.png"
