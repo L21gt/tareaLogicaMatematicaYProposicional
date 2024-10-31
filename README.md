@@ -94,4 +94,16 @@ Descripción:
             e. (M ^ (¬A)) v (¬C)
 
                 SOLUCION:
-                    
+                    a. ![A ^ B](image.png)
+
+                    b. (¬A ^ B) v C
+
+
+                    c. ¬(A v C) ^B
+
+
+                    d. (B ^ C)^(¬A)
+
+
+                    e. (M ^ (¬A)) v (¬C)
+
