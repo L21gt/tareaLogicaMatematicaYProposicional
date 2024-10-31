@@ -96,6 +96,7 @@ Descripción:
                 SOLUCION:
                     a. A ^ B
                         ![Solucion a.](/screenshotsTablasDeVerdad/solucionA.png)
+                        <img src="/screenshotsTablasDeVerdad/solucionA.png">
 
                     b. (¬A ^ B) v C
 
