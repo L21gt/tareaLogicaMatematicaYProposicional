@@ -95,7 +95,7 @@ Descripción:
 
                 SOLUCION:
                     a. A ^ B
-                        image.png
+                       image.png 
 
                     b. (¬A ^ B) v C
 
