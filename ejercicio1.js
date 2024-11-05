@@ -1,18 +1,18 @@
 /*
 *** Segunda sección ***
-A conAnuación, se presentan ejercicios los cuales deberá resolver uAlizando el lenguaje
-JavaScript uAlizando NodeJS.
+A continuación, se presentan ejercicios los cuales deberá resolver utilizando el lenguaje
+JavaScript utilizando NodeJS.
 
     Ejercicio 1: Sistema de Evaluación de Riesgo
         Cree una función que evalúe el nivel de riesgo de un cliente bancario basado en varios factores.
             • Defina la función evaluateRisk(income, hasLoans, latePayments, isStudent):
                 o Un cliente es considerado de alto riesgo si:
                     § Tiene ingresos menores a $20,000 y más de 3 pagos atrasados.
-                    § O Aene préstamos acAvos y es estudiante.
+                    § O tiene préstamos activos y es estudiante.
                 o Un cliente es considerado de riesgo moderado si:
-                    § Tiene ingresos entre $20,000 y $50,000, y no Aene más de 2 pagos
+                    § Tiene ingresos entre $20,000 y $50,000, y no tiene más de 2 pagos
                     atrasados.
-                    § O si Aene préstamos pero no es estudiante.
+                    § O si tiene préstamos pero no es estudiante.
                 o Si no cumple ninguna de estas condiciones, se considera de bajo riesgo.
             • Retorne el nivel de riesgo como un string: 'High', 'Moderate' o 'Low'.
             • Por ejemplo, el uso de la función sería:
@@ -21,12 +21,14 @@ JavaScript uAlizando NodeJS.
 
 function evaluateRisk(income, hasLoans, latePayments, isStudent) {
     // Evaluar si el riesgo es alto
-    if ((income < 20000 && latePayments > 3) || (hasLoans && isStudent)) {
+    if ((income < 20000 && latePayments > 3) || (hasLoans && isStudent)) { 
+        // Tiene ingresos menores a $20,000 y más de 3 pagos atrasados O tiene préstamos activos y es estudiante.
       return "El nivel de riesgo es: \"High\"";
     }
   
     // Evaluar si el riesgo es moderado
-    if ((income >= 20000 && income <= 50000 && latePayments <= 2) || (hasLoans && !isStudent)) {
+    if ((income >= 20000 && income <= 50000 && latePayments <= 2) || (hasLoans && !isStudent)) {  
+        //Tiene ingresos entre $20,000 y $50,000, y no tiene más de 2 pagos atrasados O si tiene préstamos pero no es estudiante.
       return "El nivel de riesgo es: \"Moderate\"";
     }
   
